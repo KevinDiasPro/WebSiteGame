@@ -1,0 +1,41 @@
+html, body{
+       height: 100%;
+      margin:0;
+	  width: 100%;
+	  min-height: 100%;
+	  }
+	  
+footer{
+margin-top:10%;
+}
+
+pre, code {
+	font-size: 100%;
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New", monospace;
+}
+pre {
+	width: 90%;
+	overflow: auto;
+	overflow-y: hidden;
+	margin: .75em 0;
+	padding: 12px;
+	background: #eee;
+	color: #555;
+}
+pre strong {
+	font-weight: normal;
+	color: black;
+}
+#copyright {
+	margin: 20px 0 5px 0;
+	text-align: right;
+	font-size: .8em;
+	color: #848F63;
+}
+#copyright a {
+	color: #848F63;
+	text-decoration: none;
+}
+#copyright a:hover, #copyright a:focus {
+	text-decoration: underline;
+}

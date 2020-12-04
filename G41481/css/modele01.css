@@ -1,0 +1,206 @@
+/* G�n�ral */
+html{
+       height: 100%;
+      margin:0;
+	  width: 100%;
+}
+body {
+	color: #F0E39E;
+	background-image: url(/Dias_Kevin/G41481/images/image.jpg);
+	       height: 100%;
+      margin:0;
+	  width: 100%;
+	  min-height: 100%;
+}
+a {
+	color: #FF6533;
+}
+a:hover, a:focus {
+	color: #FF4C00;
+}
+strong {
+	color: #00FF00;
+	
+}
+.image {
+ height: 200px;
+ width: 200px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.imageTop10{
+ height: 300px;
+ width: 300px;
+}
+
+/* Header */
+#entete {
+	background: black;
+	background-image: url(/Dias_Kevin/G41481/images/banner.jpg);
+}
+
+/* Nav */
+#navigation {
+	background: black;
+		font-size:130%;
+}
+#navigation a {
+	color: #00FF00;
+}
+#navigation a:hover, #navigation a:focus {
+	background: #000000;
+	color: #FF3300;
+}
+
+/* Content */
+#contenu {
+	color: white;
+	background-image: url(/Dias_Kevin/G41481/images/image.jpg);
+}
+#contenu a {
+	text-decoration: none;
+	color: #00FF00;
+}
+#contenu a:hover, #contenu a:focus {
+	color: #6E5122;
+}
+#contenu strong {
+	color: #181A12;
+}
+
+#contenu h2 {
+ font-size: 210%;
+ color: #00FF00;
+}
+
+
+/* Footer */
+#pied {
+	color: black;
+	background: black;
+}
+#pied p {
+	color: #00FF00;
+
+}
+
+/* Forumlaire */
+#formulaire {
+    
+	padding: 12px 12px;
+	
+}
+
+/* Notif */
+#notification {
+	color: #582758;
+}
+
+/****POSITION*****/
+
+/* Page */
+body {
+	padding: 0; /* -> 2 */
+}
+
+/* Header */
+#entete {
+	padding: 15px 20px 10px 20px;
+}
+#entete h1 {
+    margin: 0%;
+	color: #00FF00;
+	margin-left: 40%;
+}
+#entete h1 img {
+	margin: 7px 20px 10px 0;
+}
+#entete .sous-titre {
+	margin: 4px 0 15px 0;
+}
+
+/* Nav */
+#navigation {
+	padding: 12px 15px;
+
+}
+#navigation ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+			margin-left: 20%;
+}
+#navigation li {
+	display: inline; /* -> 3 */
+
+}
+#navigation a {
+	padding: 6px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+	
+}
+
+/* Content */
+#contenu {
+	padding: 10px 20px;
+}
+#contenu > :first-child {
+	margin-top: 10px;
+}
+#contenu p, #contenu li {
+	line-height: 1.5;
+}
+
+/* Footer */
+#pied {
+	padding-bottom: 1%;
+	font-size: .85em;
+	height: 50px;
+	width: 100%;
+	left: 0; right: 0;
+}
+#pied p {
+	margin: .5em 0;
+}
+#pied #copyright {
+	float: right;
+	margin: .5em 0 30px 10%;
+	font-size: 1em;
+}
+
+/* Tables*/
+.html {
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New",
+		monospace;
+	font-size: larger;
+	color: purple;
+}
+
+
+
+#tableBalises th{
+	border-width: thin;
+	border-collapse: collapse;
+	background-color: grey;
+}
+#tableBalises td{
+	border-style: solid;
+	border-width: thin;
+	border-collapse: collapse;
+}
+#tablecommentaire{
+	background:black;
+	border: 3px solid #F0E39E;
+	border-radius: 90px;
+	padding: 35px;
+}
+#tableprix{
+	background:black;
+	border: 3px solid #F0E39E;
+	border-radius: 90px;
+	padding: 35px;
+}
